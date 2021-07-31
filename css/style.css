@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&display=swap');
+
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*+++++++++++++++ Common Class Start ++++++++++++++++*/
+
+
+.container{
+    width:1100px;
+    max-width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-2{
+    flex-basis: 48%;
+    max-width: 48%;
+}
+.col-3{
+    box-shadow: 0 0 5px #e6e3e3b3;
+    flex-basis: 30%;
+    max-width: 30%;
+    margin: 20px 0;
+    background: #F5F5F5;
+    padding: 20px;
+}
+.col-4{
+    flex-basis: 25%;
+    max-width: 25%;
+}
+img{
+    max-width: 100%;
+}
+button{
+    
+padding: 15px 25px;
+    
+background-color: #FF6162;
+    
+border: 0 #FF6162;
+    
+color: white;
+    
+border-radius: 4px;
+    
+font-size: 16px;
+    
+font-weight: 600;
+    
+text-shadow: 0 0 2px white;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.heading h1{
+    text-align: center;
+    font-size: 35px;
+    color: #292640;
+}
+.heading p{
+    text-align: center;
+    font-size: 16px;
+    width: 500px;
+    margin: auto;
+    color: #464a4c;
+    font-style: italic;
+    line-height: 1.5em;
+    padding-top: 8px;
+}
+
+/*+++++++++++++++ Common Class End ++++++++++++++++*/
+
+/*+++++++++++++++header Css End +++++++++++++*/ 
+
+header{padding: 15px 0px;box-shadow: 0 0 1px #000000ab;z-index: 999;}
+header .row{align-items: center;}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+    padding: 20px 0;
+}
+.logo img{
+    width: 50%;
+}
+.nav-btn{flex-basis: 20%;max-width: 20%;}
+nav{
+    flex-basis: 60%;
+    max-width: 60%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -30px 0;
+}
+nav ul li{
+    padding: 10px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #434157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: -6px 15px;
+    padding: 8px 15px;
+    display: inline-block;
+    transition: all .5s ease;
+}
+nav ul li a:hover{
+    color:#FF6162;
+
+}
+
+/*+++++++++++++++header Css End +++++++++++++*/ 
+
+/*+++++++++++++++hero Css Start +++++++++++++*/ 
+
+.hero{
+    padding: 150px 0;
+}
+.hero .row{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero-content{}
+.hero-content h1{
+    color: #292640;
+    font-size: 51px;
+    line-height: 64px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.hero-content h1 span{
+    color: #FF6162;
+    
+}
+.hero-content p{
+    color: #464a4c;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 25px 0;
+    line-height: 28px;
+}
+
+.hero-content i{
+    font-size: 30px;
+    font-weight: 300;
+    color: #464a4c;
+}
+
+.hero-img{}
+
+
+
+/*+++++++++++++++hero Css End +++++++++++++*/ 
+
+
+/*+++++++++++++++Portfolio Css Start +++++++++++++*/ 
+.portfolio {
+    padding: 80px 0;
+}
+.portfolio .row{
+    padding: 50px 0;
+}
+.card h1{
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #464a4c;
+    padding: 20px 0;
+    
+}
+.card img{
+    max-width: 100%;
+    width: 250px;
+    height: 450px;
+    margin: 0 10px;
+    box-shadow: 0 0px 10px #3c3c3ca8;
+}
+
+
+
+
+/*+++++++++++++++Portfolio Css End +++++++++++++*/
+
+
+
+/*+++++++++++++++Feature Css Start +++++++++++++*/ 
+
+.feature{
+    padding: 40px 0 130px 0;
+}
+.feature .row{
+    justify-content: space-evenly;
+    text-align: center;
+    /* margin: 20px auto; */
+}
+
+/*.feature .col-3 {
+    box-shadow: 0 0 5px #e6e3e3b3;
+    flex-basis: 30%;
+    max-width: 30%;
+    margin: 20px 0;
+    background: #F5F5F5;
+}*/
+
+.feature .heading{
+    padding: 30px 0;
+}
+.box-content{
+    padding: 20px;
+}
+.box-content .icon {
+    font-size: 20px;
+    color: #ff6162;
+    background: white;
+    border-radius: 50%;
+    /* padding: 20px; */
+    box-shadow: 0 0 10px #b0b0b06e;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+.box-content h3{
+    padding: 10px 0;
+    font-size: 15px;
+    color: #292640;
+}
+.box-content p{
+    font-size: 12px;
+    color: #464a4c;
+}
+
+/*+++++++++++++++Feature Css End +++++++++++++*/
+
+
+/*+++++++++++++++Footer Css Start +++++++++++++*/
+
+footer{
+    /* max-width: 100%; */
+    /* width: 1200px; */
+    /* margin: auto; */
+    text-align: center;
+    padding: 50px 0;
+    background: #292640;
+}
+footer .content{
+    width: 600px;
+    margin: auto;
+}
+footer .content h1{
+    color: #fff;
+    font-size: 45px;
+    line-height: 1.5em;
+    padding: 35px 0;
+    text-transform: capitalize;
+}
+
+
+/*+++++++++++++++Footer Css End +++++++++++++*/ 
+
+
+@media(max-width: 1200px){
+    .container{
+        width: 900px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    button {
+        font-size: 13px;
+    }
+    .hero {
+        padding: 110px 0;
+    }
+    .hero-content h1 {
+        font-size: 45px;
+    }
+    .hero-content p { 
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .portfolio {
+        padding: 50px 0;
+    }
+    .card img {
+        margin: 0px 0;
+    }
+    .col-4 {
+        flex-basis: 22%;
+        max-width: 22%;
+        margin: 0 10px;
+    }
+    footer .content h1 {
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 992px){
+    .container{
+        width:750px;
+    }
+    .logo img {
+        width: 80%;
+    }
+    
+button {
+    padding: 12px 15px;
+    font-size: 12px;
+}
+.hero .row {
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.hero-content h1 {
+    font-size: 35px;
+}
+.hero-content p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.hero-content i {
+    font-size: 20px;
+    font-weight: 100;
+    color: #464a4c9c;
+}
+.col-3 {
+    padding: 10px;
+}
+.hero {
+    padding: 80px 0;
+}
+.portfolio {
+    padding: 50px 0;
+}
+.feature {
+    padding: 0px 0 80px 0;
+}
+.box-content {
+    padding: 2px;
+}
+.box-content h3 {
+    font-size: 14px;
+}
+
+}
+@media(max-width: 768px){
+    .container{
+        width: 560px;
+    }
+    .logo {
+        padding: 10px 0;
+    }
+    nav ul {
+        margin: -28px 0;
+    }
+    nav ul li {
+        padding: 5px 0px;
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
+    .nav-btn {
+        margin-top: -10px;
+    }
+    button {
+        padding: 10px 5px;
+        font-size: 10px;
+    }
+    .hero-content h1 {
+        font-size: 25px;
+        line-height: 1.5em;
+    }
+    .hero-content p {
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+    .hero {
+        padding: 60px 0;
+    }
+    .portfolio {
+        padding: 20px 0 20px 0;
+    }
+    .col-4 {
+        flex-basis: 45%;
+        max-width: 45%;
+        
+    }
+    footer .content {
+        width: 400px;
+        margin: auto;
+    }
+    footer .content h1 {
+        font-size: 25px;
+    }
+    .heading h1 {
+        font-size: 25px;
+    }
+    .heading p {
+        font-size: 12px;
+        width: 400px;
+    }
+
+}
+@media(max-width: 576px){
+    .nav-btn {
+        display: none;
+    }
+    .logo {
+        max-width: 100%;
+        flex-basis: 100%;
+        text-align: center;
+        padding: 10px 0;
+        
+    }
+    .logo img{
+        max-width:20%;
+        }
+        nav ul {
+            margin: -8px 0;
+            justify-content: center;
+        }
+        nav {
+            flex-basis: 100%;
+            max-width: 100%;
+        }
+        .hero-content p {
+            font-size: 10px;
+            line-height: 20px;
+            padding: 10px 0;
+        }
+        .hero {
+            padding: 50px 0;
+        }
+        .heading p {
+            
+            width:400px;
+        }
+        .portfolio .row {
+            padding: 30px 0;
+        }
+        .col-3 {
+         
+            flex-basis: 45%;
+            max-width: 45%;
+            
+        }
+    }
+    @media(max-width:420px){
+
+        .portfolio .row {
+            padding: 20px 0;
+        }
+
+        .col-2 {
+            flex-basis: 100%;
+            max-width: 100%;
+        }
+        .hero-content {
+            width: 324px;
+            margin: auto;
+            text-align: center;
+        }
+        .col-4 {
+            flex-basis: 100%;
+            max-width: 100%;
+            text-align: center;
+        }
+        .col-3 {
+            flex-basis: 100%;
+            max-width: 100%;
+            margin: 20px 50px;
+            padding: 30px;
+        }
+        footer .content {
+            width: 300px;
+            margin: auto;
+        }
+        footer .content h1 {
+            font-size: 18px;
+        }
+    }
+
+
